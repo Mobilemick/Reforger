@@ -1,0 +1,8 @@
+GameProject {
+ ID "ConflictPVP"
+ GUID "5EE0D704D20E0456"
+ TITLE "ConflictPVP"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

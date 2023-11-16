@@ -1,0 +1,205 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ coords 3802.026 7.781 3003.196
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2220.49 3.534 3311.466
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2893.495 33.939 3104.014
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 3087.744 20.752 2620.653
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2848.655 66.97 2107.715
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2657.762 76.062 1681.619
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2971.759 67.007 1557.359
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2257.837 88.785 1242.057
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 1970.973 59.317 1255.975
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 1760.286 34.312 1021.824
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 1529.06 34.772 2056.702
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 1635.93 37.711 2611.676
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2184.852 55.454 2848.403
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2481.394 85.879 2657.897
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2978.224 30.923 2601.83
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 3033.88 58.665 1797.405
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2247.76 56.19 1747.536
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2523.825 144.952 2325.222
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2664.783 80.416 1835.057
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2403.515 81.371 1469.717
+  angleY -112.693
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 1453.341 29.993 1137.778
+  angleY -112.693
+ }
+}

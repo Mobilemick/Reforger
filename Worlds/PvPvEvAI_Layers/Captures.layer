@@ -1,0 +1,38 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ {
+  coords 3141.877 8.944 2888.491
+  angleY -141.364
+ }
+ {
+  coords 2796.091 73.722 1578.753
+  angleY -97.308
+ }
+ {
+  coords 1298.578 39 2200.684
+  angleY -36.873
+ }
+ {
+  coords 1635.031 38.981 2885.258
+  angleY -102.912
+ }
+ {
+  coords 3070.754 18.872 2949.855
+  angleY -178.36
+ }
+ {
+  coords 3391.801 3.851 1307.43
+  angleY -116.54
+ }
+ {
+  coords 2301.895 77.029 1162.125
+  angleY -69.229
+ }
+ {
+  coords 1909.195 5.875 1506.815
+  angleY -131.006
+ }
+ {
+  coords 639.617 40.225 2626.878
+  angleY 78.396
+ }
+}
