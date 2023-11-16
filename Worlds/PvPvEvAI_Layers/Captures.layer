@@ -1,6 +1,6 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  {
-  coords 3141.877 8.944 2888.491
+  coords 3101.657 32.68 2545.596
   angleY -141.364
  }
  {
@@ -33,6 +33,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   coords 639.617 40.225 2626.878
+  angleY 78.396
+ }
+ {
+  coords 3333.483 51.479 1817.673
   angleY 78.396
  }
 }
