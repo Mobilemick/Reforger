@@ -37,6 +37,10 @@ TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
 }
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  components {
+  SCR_GroupsManagerComponent "{5706EC99934496F5}" {
+   m_aGroupFlags {
+   }
+  }
   SCR_PlayerSpawnPointManagerComponent "{5CDABA98894199D0}" {
    m_bRadioVehicleSpawningEnabled 1
   }
@@ -57,9 +61,16 @@ SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Con
   }
  }
  coords 2033.122 32.126 2017.837
+ m_bAllowFactionChange 1
+ m_iControlPointsThreshold 10
+ m_iHQStartingSupplies 1000
+ m_iSpawnCost 200
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 3262.894 27.302 2212.766
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 2748.8 56.261 3065.846
 }
 SCR_CampaignFactionManager CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
  coords 2033.122 32.688 2020.837

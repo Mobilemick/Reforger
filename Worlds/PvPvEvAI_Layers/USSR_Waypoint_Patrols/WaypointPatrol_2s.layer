@@ -1,0 +1,36 @@
+$grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ wp_10 {
+  coords 2197.727 83.575 1216.406
+  angleX 3.638
+  angleY 90.791
+  angleZ -4.409
+ }
+ wp_11 {
+  coords 2452.007 89.715 1443.793
+  angleX 0.28
+  angleY 71.782
+  angleZ 0.85
+ }
+ wp_12 {
+  coords 2797.092 73.417 1579.359
+  angleX -3.006
+  angleY -103.826
+  angleZ -8.407
+ }
+}
+AIWaypointCycle s_4 : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ coords 2376.544 84.38 1409.035
+ angleX 3.758
+ angleY 83.395
+ angleZ 1.363
+ CycleWaypoints {
+  "wp_10" "wp_11" "wp_12"
+ }
+}
+SCR_AIGroup : "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et" {
+ coords 2255.483 0 1022.053
+ angleY -59.768
+ m_aStaticWaypoints {
+  "s_4"
+ }
+}

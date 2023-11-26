@@ -1,0 +1,48 @@
+$grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ wp_1 {
+  coords 2571.891 18.853 3092.791
+  angleY 91.071
+ }
+ wp_2 {
+  coords 3072.403 18.454 2949.45
+  angleX -9.737
+  angleY 69.34
+  angleZ 9.231
+ }
+ wp_3 {
+  coords 3104.007 32.797 2542.156
+  angleX 0.172
+  angleY -103.466
+  angleZ 4.552
+ }
+}
+AIWaypointCycle u_1 : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ coords 2548.221 21.246 3063.363
+ angleX 3.758
+ angleY 83.395
+ angleZ 1.363
+ CycleWaypoints {
+  "wp_1" "wp_2" "wp_3"
+ }
+}
+SCR_AIGroup : "{84E5BBAB25EA23E5}Prefabs/Groups/BLUFOR/Group_US_FireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "FILE"
+  }
+  SCR_AIConfigComponent "{512CC1759AE69D6D}" {
+   m_Skill 1
+  }
+ }
+ coords 2552.427 22.213 3060.011
+ angleX -8.899
+ angleY -1.398
+ angleZ -0.668
+ DangerEventRange 75
+ m_aStaticWaypoints {
+  "u_1"
+ }
+ m_fMemberSpawnDelay 1
+ m_bDeleteWhenEmpty 0
+ m_bDeleteIfNoPlayer 0
+}

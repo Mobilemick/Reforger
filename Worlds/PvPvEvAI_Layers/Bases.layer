@@ -40,6 +40,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bCanBeHQ 1
     m_bIsSupplyHub 1
    }
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    VisibleOnMap 0
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     Enabled 0
    }
