@@ -1,0 +1,39 @@
+$grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ wp_25 {
+  coords 2386.474 22.854 869.225
+  angleY -87.274
+ }
+ wp_26 {
+  coords 2148.882 31.185 895.28
+  angleX 1.274
+  angleY -93.794
+  angleZ -5.846
+ }
+ wp_27 {
+  coords 1681.544 7.757 917.497
+  angleX -6.399
+  angleY 102.944
+  angleZ 1.287
+ }
+}
+AIWaypointCycle u_6 : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ coords 2047.737 80.361 508.433
+ angleX 3.758
+ angleY 3.915
+ angleZ 1.363
+ CycleWaypoints {
+  "wp_25" "wp_26" "wp_27"
+ }
+}
+SCR_AIGroup : "{84E5BBAB25EA23E5}Prefabs/Groups/BLUFOR/Group_US_FireTeam.et" {
+ components {
+  SCR_AIConfigComponent "{512CC1759AE69D6D}" {
+   m_Skill 1
+  }
+ }
+ coords 2369.573 43.063 1011.401
+ angleY -150.778
+ m_aStaticWaypoints {
+  "u_6"
+ }
+}
