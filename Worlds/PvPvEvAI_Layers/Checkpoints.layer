@@ -1,0 +1,1337 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 3600
+   }
+  }
+  coords 2876.962 38.4 3171.081
+  angleY -69.402
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 2700
+   }
+  }
+  coords 3215.4 7.028 2842.618
+  angleX 3.557
+  angleY -89.118
+  angleZ 4.113
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 2700
+   }
+  }
+  coords 3319.019 37.103 2587.809
+  angleX 3.557
+  angleY -89.118
+  angleZ 4.113
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 2700
+   }
+  }
+  coords 2848.652 66.852 2116.706
+  angleX -4.669
+  angleY 115.365
+  angleZ -6.734
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 2700
+   }
+  }
+  coords 2593.309 125.429 2198.234
+  angleX 4.387
+  angleY -158.434
+  angleZ -3.748
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 2700
+   }
+  }
+  coords 2530.917 90.556 2676.561
+  angleX 8.464
+  angleY -144.369
+  angleZ 4.943
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 2700
+   }
+  }
+  coords 1968.844 51.291 3004.89
+  angleY 159.457
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 2700
+   }
+  }
+  coords 1504.267 31.998 1143.628
+  angleY 153.292
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 2700
+   }
+  }
+  coords 1957.189 53.473 1208.068
+  angleX -2.686
+  angleY 152.803
+  angleZ 10.315
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 2700
+   }
+  }
+  coords 2345.03 87.656 1361.43
+  angleX 0.391
+  angleY 153.27
+  angleZ -3.201
+ }
+}
+GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
+ coords 2835.64 36.753 3180.727
+ angleY -88.529
+}
+$grp GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ {
+  components {
+   FactionAffiliationComponent "{5CC6A59B280BD191}" {
+    "faction affiliation" ""
+   }
+  }
+  coords 2876.264 38.389 3172.708
+  angleY -59.22
+ }
+ {
+  components {
+   FactionAffiliationComponent "{5CC6A59B280BD191}" {
+    "faction affiliation" ""
+   }
+  }
+  coords 3212.268 7.359 2842.593
+  angleX 6.915
+  angleY -123.38
+  angleZ 0.777
+  {
+   GenericEntity {
+    ID "5CC6B48E65457D2D"
+    coords 1.921 0.005 -1.567
+    angleY -13.651
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D11"
+    coords 0.053 0.003 -0.336
+    angleX -0.859
+    angleY -8.742
+    angleZ -1.554
+    {
+     DecalEntity {
+      ID "56E0B29FF966C8BF"
+      coords 0.002 0 0
+      angleX 0
+      angleY -134.075
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D0D"
+    coords 2.342 0.009 -1.53
+    angleX 1.828
+    angleY 24.487
+    angleZ -0.762
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+      angleX 0
+      angleY -174.484
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457DF4"
+    coords 0.499 0.031 0.877
+    angleX -0.906
+    angleY -10.471
+    angleZ -1.527
+    {
+     DecalEntity {
+      ID "56E0B29FA123C2A9"
+      coords 0 0 0
+      angleX 0
+      angleY -132.345
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B4BF3343B4E9"
+    coords -2.556 -0.065 -0.437
+    angleX -0.156
+    angleY -74.452
+    angleZ -1.757
+   }
+   GenericEntity {
+    ID "5E5AD06EF546637B"
+    coords 1.784 -0.032 -3.968
+    angleX 0.227
+    angleY -102.643
+    angleZ 1.967
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D79"
+    coords -2.237 -0.079 1.661
+    angleX -0.363
+    angleY 98.797
+    angleZ -1.737
+    {
+     GenericEntity {
+      ID "52F07DE9F3BBC081"
+      coords -0.045 -0.001 -0.011
+      angleX 0
+      angleY 4.364
+      angleZ 0
+     }
+     GenericEntity {
+      ID "52F07DE9F3BBC170"
+      coords 0 0.001 0.006
+      angleX 0
+      angleY 0.052
+      angleZ 0
+     }
+     GenericEntity {
+      ID "5CB0D9960149C45D"
+      coords 0.623 -0.014 -0.002
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457AB2"
+    coords -1.06 -0.067 2.773
+    angleX -0.83
+    angleY 0.039
+    angleZ 0.311
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457D46"
+    coords 2.325 -0.01 -2.1
+    angleX -0.575
+    angleY -20.202
+    angleZ -0.675
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AD1"
+    coords 1.546 -0.021 -2.274
+    angleX -0.878
+    angleY -77.998
+    angleZ 0.126
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AFB"
+    coords -1.147 -0.051 2.002
+    angleX -2.748
+    angleY -39.521
+    angleZ -0.576
+   }
+  }
+ }
+ {
+  components {
+   FactionAffiliationComponent "{5CC6A59B280BD191}" {
+    "faction affiliation" ""
+   }
+  }
+  coords 3315.887 37.123 2587.783
+  angleX 6.915
+  angleY -123.38
+  angleZ 0.777
+  {
+   GenericEntity {
+    ID "5CC6B48E65457D2D"
+    coords 1.921 0.005 -1.567
+    angleY -13.651
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D11"
+    coords 0.053 0.003 -0.336
+    angleX -0.859
+    angleY -8.742
+    angleZ -1.554
+    {
+     DecalEntity {
+      ID "56E0B29FF966C8BF"
+      coords 0.002 0 0
+      angleX 0
+      angleY -134.075
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D0D"
+    coords 2.342 0.009 -1.53
+    angleX 1.828
+    angleY 24.487
+    angleZ -0.762
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+      angleX 0
+      angleY -174.484
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457DF4"
+    coords 0.499 0.031 0.877
+    angleX -0.906
+    angleY -10.471
+    angleZ -1.527
+    {
+     DecalEntity {
+      ID "56E0B29FA123C2A9"
+      coords 0 0 0
+      angleX 0
+      angleY -132.345
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B4BF3343B4E9"
+    coords -2.556 -0.065 -0.437
+    angleX -0.156
+    angleY -74.452
+    angleZ -1.757
+   }
+   GenericEntity {
+    ID "5E5AD06EF546637B"
+    coords 1.784 -0.032 -3.968
+    angleX 0.227
+    angleY -102.643
+    angleZ 1.967
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D79"
+    coords -2.237 -0.079 1.661
+    angleX -0.363
+    angleY 98.797
+    angleZ -1.737
+    {
+     GenericEntity {
+      ID "52F07DE9F3BBC081"
+      coords -0.045 -0.001 -0.011
+      angleX 0
+      angleY 4.364
+      angleZ 0
+     }
+     GenericEntity {
+      ID "52F07DE9F3BBC170"
+      coords 0 0.001 0.006
+      angleX 0
+      angleY 0.052
+      angleZ 0
+     }
+     GenericEntity {
+      ID "5CB0D9960149C45D"
+      coords 0.623 -0.014 -0.002
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457AB2"
+    coords -1.06 -0.067 2.773
+    angleX -0.83
+    angleY 0.039
+    angleZ 0.311
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457D46"
+    coords 2.325 -0.01 -2.1
+    angleX -0.575
+    angleY -20.202
+    angleZ -0.675
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AD1"
+    coords 1.546 -0.021 -2.274
+    angleX -0.878
+    angleY -77.998
+    angleZ 0.126
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AFB"
+    coords -1.147 -0.051 2.002
+    angleX -2.748
+    angleY -39.521
+    angleZ -0.576
+   }
+  }
+ }
+ {
+  components {
+   FactionAffiliationComponent "{5CC6A59B280BD191}" {
+    "faction affiliation" ""
+   }
+  }
+  coords 2851.563 66.785 2115.459
+  angleX -5.986
+  angleY 80.962
+  angleZ -3.553
+  {
+   GenericEntity {
+    ID "5CC6B48E65457D2D"
+    coords 1.921 0.005 -1.567
+    angleY -13.651
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D11"
+    coords 0.053 0.003 -0.336
+    angleX -0.859
+    angleY -8.742
+    angleZ -1.554
+    {
+     DecalEntity {
+      ID "56E0B29FF966C8BF"
+      coords 0.002 0 0
+      angleX 0
+      angleY -134.075
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D0D"
+    coords 2.342 0.009 -1.53
+    angleX 1.828
+    angleY 24.487
+    angleZ -0.762
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+      angleX 0
+      angleY -174.484
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457DF4"
+    coords 0.499 0.031 0.877
+    angleX -0.906
+    angleY -10.471
+    angleZ -1.527
+    {
+     DecalEntity {
+      ID "56E0B29FA123C2A9"
+      coords 0 0 0
+      angleX 0
+      angleY -132.345
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B4BF3343B4E9"
+    coords -2.556 -0.065 -0.437
+    angleX -0.156
+    angleY -74.452
+    angleZ -1.757
+   }
+   GenericEntity {
+    ID "5E5AD06EF546637B"
+    coords 1.784 -0.032 -3.968
+    angleX 0.227
+    angleY -102.643
+    angleZ 1.967
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D79"
+    coords -2.237 -0.079 1.661
+    angleX -0.363
+    angleY 98.797
+    angleZ -1.737
+    {
+     GenericEntity {
+      ID "52F07DE9F3BBC081"
+      coords -0.045 -0.001 -0.011
+      angleX 0
+      angleY 4.364
+      angleZ 0
+     }
+     GenericEntity {
+      ID "52F07DE9F3BBC170"
+      coords 0 0.001 0.006
+      angleX 0
+      angleY 0.052
+      angleZ 0
+     }
+     GenericEntity {
+      ID "5CB0D9960149C45D"
+      coords 0.623 -0.014 -0.002
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457AB2"
+    coords -1.06 -0.067 2.773
+    angleX -0.83
+    angleY 0.039
+    angleZ 0.311
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457D46"
+    coords 2.325 -0.01 -2.1
+    angleX -0.575
+    angleY -20.202
+    angleZ -0.675
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AD1"
+    coords 1.546 -0.021 -2.274
+    angleX -0.878
+    angleY -77.998
+    angleZ 0.126
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AFB"
+    coords -1.147 -0.051 2.002
+    angleX -2.748
+    angleY -39.521
+    angleZ -0.576
+   }
+  }
+ }
+ {
+  components {
+   FactionAffiliationComponent "{5CC6A59B280BD191}" {
+    "faction affiliation" ""
+   }
+  }
+  coords 2592.436 125.065 2196.343
+  angleX 3.176
+  angleY 167.235
+  angleZ -6.194
+  {
+   GenericEntity {
+    ID "5CC6B48E65457D2D"
+    coords 1.921 0.005 -1.567
+    angleY -13.651
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D11"
+    coords 0.053 0.003 -0.336
+    angleX -0.859
+    angleY -8.742
+    angleZ -1.554
+    {
+     DecalEntity {
+      ID "56E0B29FF966C8BF"
+      coords 0.002 0 0
+      angleX 0
+      angleY -134.075
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D0D"
+    coords 2.342 0.009 -1.53
+    angleX 1.828
+    angleY 24.487
+    angleZ -0.762
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+      angleX 0
+      angleY -174.484
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457DF4"
+    coords 0.499 0.031 0.877
+    angleX -0.906
+    angleY -10.471
+    angleZ -1.527
+    {
+     DecalEntity {
+      ID "56E0B29FA123C2A9"
+      coords 0 0 0
+      angleX 0
+      angleY -132.345
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B4BF3343B4E9"
+    coords -2.556 -0.065 -0.437
+    angleX -0.156
+    angleY -74.452
+    angleZ -1.757
+   }
+   GenericEntity {
+    ID "5E5AD06EF546637B"
+    coords 1.784 -0.032 -3.968
+    angleX 0.227
+    angleY -102.643
+    angleZ 1.967
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D79"
+    coords -2.237 -0.079 1.661
+    angleX -0.363
+    angleY 98.797
+    angleZ -1.737
+    {
+     GenericEntity {
+      ID "52F07DE9F3BBC081"
+      coords -0.045 -0.001 -0.011
+      angleX 0
+      angleY 4.364
+      angleZ 0
+     }
+     GenericEntity {
+      ID "52F07DE9F3BBC170"
+      coords 0 0.001 0.006
+      angleX 0
+      angleY 0.052
+      angleZ 0
+     }
+     GenericEntity {
+      ID "5CB0D9960149C45D"
+      coords 0.623 -0.014 -0.002
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457AB2"
+    coords -1.06 -0.067 2.773
+    angleX -0.83
+    angleY 0.039
+    angleZ 0.311
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457D46"
+    coords 2.325 -0.01 -2.1
+    angleX -0.575
+    angleY -20.202
+    angleZ -0.675
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AD1"
+    coords 1.546 -0.021 -2.274
+    angleX -0.878
+    angleY -77.998
+    angleZ 0.126
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AFB"
+    coords -1.147 -0.051 2.002
+    angleX -2.748
+    angleY -39.521
+    angleZ -0.576
+   }
+  }
+ }
+ {
+  components {
+   FactionAffiliationComponent "{5CC6A59B280BD191}" {
+    "faction affiliation" ""
+   }
+  }
+  coords 2529.153 90.945 2673.975
+  angleX 9.751
+  angleY -179.087
+  angleZ 0.155
+  {
+   GenericEntity {
+    ID "5CC6B48E65457D2D"
+    coords 1.921 0.005 -1.567
+    angleY -13.651
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D11"
+    coords 0.053 0.003 -0.336
+    angleX -0.859
+    angleY -8.742
+    angleZ -1.554
+    {
+     DecalEntity {
+      ID "56E0B29FF966C8BF"
+      coords 0.002 0 0
+      angleX 0
+      angleY -134.075
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D0D"
+    coords 2.342 0.009 -1.53
+    angleX 1.828
+    angleY 24.487
+    angleZ -0.762
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+      angleX 0
+      angleY -174.484
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457DF4"
+    coords 0.499 0.031 0.877
+    angleX -0.906
+    angleY -10.471
+    angleZ -1.527
+    {
+     DecalEntity {
+      ID "56E0B29FA123C2A9"
+      coords 0 0 0
+      angleX 0
+      angleY -132.345
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B4BF3343B4E9"
+    coords -2.556 -0.065 -0.437
+    angleX -0.156
+    angleY -74.452
+    angleZ -1.757
+   }
+   GenericEntity {
+    ID "5E5AD06EF546637B"
+    coords 1.784 -0.032 -3.968
+    angleX 0.227
+    angleY -102.643
+    angleZ 1.967
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D79"
+    coords -2.237 -0.079 1.661
+    angleX -0.363
+    angleY 98.797
+    angleZ -1.737
+    {
+     GenericEntity {
+      ID "52F07DE9F3BBC081"
+      coords -0.045 -0.001 -0.011
+      angleX 0
+      angleY 4.364
+      angleZ 0
+     }
+     GenericEntity {
+      ID "52F07DE9F3BBC170"
+      coords 0 0.001 0.006
+      angleX 0
+      angleY 0.052
+      angleZ 0
+     }
+     GenericEntity {
+      ID "5CB0D9960149C45D"
+      coords 0.623 -0.014 -0.002
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457AB2"
+    coords -1.06 -0.067 2.773
+    angleX -0.83
+    angleY 0.039
+    angleZ 0.311
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457D46"
+    coords 2.325 -0.01 -2.1
+    angleX -0.575
+    angleY -20.202
+    angleZ -0.675
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AD1"
+    coords 1.546 -0.021 -2.274
+    angleX -0.878
+    angleY -77.998
+    angleZ 0.126
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AFB"
+    coords -1.147 -0.051 2.002
+    angleX -2.748
+    angleY -39.521
+    angleZ -0.576
+   }
+  }
+ }
+ {
+  components {
+   FactionAffiliationComponent "{5CC6A59B280BD191}" {
+    "faction affiliation" ""
+   }
+  }
+  coords 1970.011 51.291 3001.983
+  angleX 0.938
+  angleY 125.495
+  angleZ 1.768
+  {
+   GenericEntity {
+    ID "5CC6B48E65457D2D"
+    coords 1.921 0.005 -1.567
+    angleY -13.651
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D11"
+    coords 0.053 0.003 -0.336
+    angleX -0.859
+    angleY -8.742
+    angleZ -1.554
+    {
+     DecalEntity {
+      ID "56E0B29FF966C8BF"
+      coords 0.002 0 0
+      angleX 0
+      angleY -134.075
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D0D"
+    coords 2.342 0.009 -1.53
+    angleX 1.828
+    angleY 24.487
+    angleZ -0.762
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+      angleX 0
+      angleY -174.484
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457DF4"
+    coords 0.499 0.031 0.877
+    angleX -0.906
+    angleY -10.471
+    angleZ -1.527
+    {
+     DecalEntity {
+      ID "56E0B29FA123C2A9"
+      coords 0 0 0
+      angleX 0
+      angleY -132.345
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B4BF3343B4E9"
+    coords -2.556 -0.065 -0.437
+    angleX -0.156
+    angleY -74.452
+    angleZ -1.757
+   }
+   GenericEntity {
+    ID "5E5AD06EF546637B"
+    coords 1.784 -0.032 -3.968
+    angleX 0.227
+    angleY -102.643
+    angleZ 1.967
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D79"
+    coords -2.237 -0.079 1.661
+    angleX -0.363
+    angleY 98.797
+    angleZ -1.737
+    {
+     GenericEntity {
+      ID "52F07DE9F3BBC081"
+      coords -0.045 -0.001 -0.011
+      angleX 0
+      angleY 4.364
+      angleZ 0
+     }
+     GenericEntity {
+      ID "52F07DE9F3BBC170"
+      coords 0 0.001 0.006
+      angleX 0
+      angleY 0.052
+      angleZ 0
+     }
+     GenericEntity {
+      ID "5CB0D9960149C45D"
+      coords 0.623 -0.014 -0.002
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457AB2"
+    coords -1.06 -0.067 2.773
+    angleX -0.83
+    angleY 0.039
+    angleZ 0.311
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457D46"
+    coords 2.325 -0.01 -2.1
+    angleX -0.575
+    angleY -20.202
+    angleZ -0.675
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AD1"
+    coords 1.546 -0.021 -2.274
+    angleX -0.878
+    angleY -77.998
+    angleZ 0.126
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AFB"
+    coords -1.147 -0.051 2.002
+    angleX -2.748
+    angleY -39.521
+    angleZ -0.576
+   }
+  }
+ }
+ {
+  components {
+   FactionAffiliationComponent "{5CC6A59B280BD191}" {
+    "faction affiliation" ""
+   }
+  }
+  coords 1505.969 32.03 1150.287
+  angleX -3.058
+  angleY -121.257
+  angleZ 1.855
+  {
+   GenericEntity {
+    ID "5CC6B48E65457D2D"
+    coords 1.921 0.005 -1.567
+    angleY -13.651
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D11"
+    coords 0.053 0.003 -0.336
+    angleX -0.859
+    angleY -8.742
+    angleZ -1.554
+    {
+     DecalEntity {
+      ID "56E0B29FF966C8BF"
+      coords 0.002 0 0
+      angleX 0
+      angleY -134.075
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D0D"
+    coords 2.342 0.009 -1.53
+    angleX 1.828
+    angleY 24.487
+    angleZ -0.762
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+      angleX 0
+      angleY -174.484
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457DF4"
+    coords 0.499 0.031 0.877
+    angleX -0.906
+    angleY -10.471
+    angleZ -1.527
+    {
+     DecalEntity {
+      ID "56E0B29FA123C2A9"
+      coords 0 0 0
+      angleX 0
+      angleY -132.345
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B4BF3343B4E9"
+    coords -2.556 -0.065 -0.437
+    angleX -0.156
+    angleY -74.452
+    angleZ -1.757
+   }
+   GenericEntity {
+    ID "5E5AD06EF546637B"
+    coords 1.784 -0.032 -3.968
+    angleX 0.227
+    angleY -102.643
+    angleZ 1.967
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D79"
+    coords -2.237 -0.079 1.661
+    angleX -0.363
+    angleY 98.797
+    angleZ -1.737
+    {
+     GenericEntity {
+      ID "52F07DE9F3BBC081"
+      coords -0.045 -0.001 -0.011
+      angleX 0
+      angleY 4.364
+      angleZ 0
+     }
+     GenericEntity {
+      ID "52F07DE9F3BBC170"
+      coords 0 0.001 0.006
+      angleX 0
+      angleY 0.052
+      angleZ 0
+     }
+     GenericEntity {
+      ID "5CB0D9960149C45D"
+      coords 0.623 -0.014 -0.002
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457AB2"
+    coords -1.06 -0.067 2.773
+    angleX -0.83
+    angleY 0.039
+    angleZ 0.311
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457D46"
+    coords 2.325 -0.01 -2.1
+    angleX -0.575
+    angleY -20.202
+    angleZ -0.675
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AD1"
+    coords 1.546 -0.021 -2.274
+    angleX -0.878
+    angleY -77.998
+    angleZ 0.126
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AFB"
+    coords -1.147 -0.051 2.002
+    angleX -2.748
+    angleY -39.521
+    angleZ -0.576
+   }
+  }
+ }
+ {
+  components {
+   FactionAffiliationComponent "{5CC6A59B280BD191}" {
+    "faction affiliation" ""
+   }
+  }
+  coords 1958.891 54.694 1214.726
+  angleX -8.801
+  angleY -120.644
+  angleZ -6.095
+  {
+   GenericEntity {
+    ID "5CC6B48E65457D2D"
+    coords 1.921 0.005 -1.567
+    angleY -13.651
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D11"
+    coords 0.053 0.003 -0.336
+    angleX -0.859
+    angleY -8.742
+    angleZ -1.554
+    {
+     DecalEntity {
+      ID "56E0B29FF966C8BF"
+      coords 0.002 0 0
+      angleX 0
+      angleY -134.075
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D0D"
+    coords 2.342 0.009 -1.53
+    angleX 1.828
+    angleY 24.487
+    angleZ -0.762
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+      angleX 0
+      angleY -174.484
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457DF4"
+    coords 0.499 0.031 0.877
+    angleX -0.906
+    angleY -10.471
+    angleZ -1.527
+    {
+     DecalEntity {
+      ID "56E0B29FA123C2A9"
+      coords 0 0 0
+      angleX 0
+      angleY -132.345
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B4BF3343B4E9"
+    coords -2.556 -0.065 -0.437
+    angleX -0.156
+    angleY -74.452
+    angleZ -1.757
+   }
+   GenericEntity {
+    ID "5E5AD06EF546637B"
+    coords 1.784 -0.032 -3.968
+    angleX 0.227
+    angleY -102.643
+    angleZ 1.967
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D79"
+    coords -2.237 -0.079 1.661
+    angleX -0.363
+    angleY 98.797
+    angleZ -1.737
+    {
+     GenericEntity {
+      ID "52F07DE9F3BBC081"
+      coords -0.045 -0.001 -0.011
+      angleX 0
+      angleY 4.364
+      angleZ 0
+     }
+     GenericEntity {
+      ID "52F07DE9F3BBC170"
+      coords 0 0.001 0.006
+      angleX 0
+      angleY 0.052
+      angleZ 0
+     }
+     GenericEntity {
+      ID "5CB0D9960149C45D"
+      coords 0.623 -0.014 -0.002
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457AB2"
+    coords -1.06 -0.067 2.773
+    angleX -0.83
+    angleY 0.039
+    angleZ 0.311
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457D46"
+    coords 2.325 -0.01 -2.1
+    angleX -0.575
+    angleY -20.202
+    angleZ -0.675
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AD1"
+    coords 1.546 -0.021 -2.274
+    angleX -0.878
+    angleY -77.998
+    angleZ 0.126
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AFB"
+    coords -1.147 -0.051 2.002
+    angleX -2.748
+    angleY -39.521
+    angleZ -0.576
+   }
+  }
+ }
+ {
+  components {
+   FactionAffiliationComponent "{5CC6A59B280BD191}" {
+    "faction affiliation" ""
+   }
+  }
+  coords 2348.171 87.415 1365.656
+  angleX 6.445
+  angleY -142.306
+  angleZ 10.473
+  {
+   GenericEntity {
+    ID "5CC6B48E65457D2D"
+    coords 1.829 0.44 -1.548
+    angleY -13.651
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D11"
+    coords 0.047 0.034 -0.333
+    angleX -0.859
+    angleY -8.742
+    angleZ -1.554
+    {
+     DecalEntity {
+      ID "56E0B29FF966C8BF"
+      coords 0.001 0 0
+      angleX 0
+      angleY -134.075
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D0D"
+    coords 2.249 0.44 -1.516
+    angleX 1.828
+    angleY 24.487
+    angleZ -0.762
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+      angleX 0
+      angleY -174.484
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457DF4"
+    coords 0.495 0.042 0.872
+    angleX -0.906
+    angleY -10.471
+    angleZ -1.527
+    {
+     DecalEntity {
+      ID "56E0B29FA123C2A9"
+      coords 0 0 0.001
+      angleX 0
+      angleY -132.345
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B4BF3343B4E9"
+    coords -2.482 -0.404 -0.443
+    angleX -0.156
+    angleY -74.452
+    angleZ -1.757
+   }
+   GenericEntity {
+    ID "5E5AD06EF546637B"
+    coords 1.784 -0.032 -3.968
+    angleX 0.227
+    angleY -102.643
+    angleZ 1.967
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D79"
+    coords -2.148 -0.502 1.639
+    angleX -0.363
+    angleY 98.797
+    angleZ -1.737
+    {
+     GenericEntity {
+      ID "52F07DE9F3BBC081"
+      coords -0.045 -0.003 -0.011
+      angleX 0
+      angleY 4.364
+      angleZ 0
+     }
+     GenericEntity {
+      ID "52F07DE9F3BBC170"
+      coords 0 0.001 0.006
+      angleX 0
+      angleY 0.052
+      angleZ 0
+     }
+     GenericEntity {
+      ID "5CB0D9960149C45D"
+      coords 0.621 0.011 -0.007
+      angleZ 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48E65457AB2"
+    coords -1 -0.376 2.745
+    angleX -0.83
+    angleY 0.039
+    angleZ 0.311
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457D46"
+    coords 2.223 0.47 -2.078
+    angleX -0.575
+    angleY -20.202
+    angleZ -0.675
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AD1"
+    coords 1.546 -0.021 -2.274
+    angleX -0.878
+    angleY -77.998
+    angleZ 0.126
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AFB"
+    coords -1.091 -0.338 1.981
+    angleX -2.748
+    angleY -39.521
+    angleZ -0.576
+   }
+  }
+ }
+}

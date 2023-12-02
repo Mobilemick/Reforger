@@ -1,0 +1,97 @@
+$grp Vehicle : "{34178E3A92776DA6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_FIA.et" {
+ Ural4320_repair_FIA1 {
+  components {
+   BaseLightManagerComponent "{51E210F17D2534F7}" {
+    LightsEnabled 1
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 1
+      m_iFuelLeakSpeed 28
+      m_eFuelNodeType 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      m_fInitialFuelTankState 1
+      m_eFuelNodeType 0
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    CanBeGarbaged 0
+    StoragePurpose 0
+   }
+  }
+  coords 2915.845 37.076 3131.084
+  {
+   ParticleEffectEntity {
+    coords 2.384 -1.216 0.728
+    EffectPath "{7B4A41DA320475FF}Particles/Editor/Photo/Smoke.ptc"
+   }
+  }
+ }
+ Ural4320_repair_FIA2 {
+  components {
+   BaseLightManagerComponent "{51E210F17D2534F7}" {
+    LightsEnabled 1
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 1
+      m_iFuelLeakSpeed 28
+      m_eFuelNodeType 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      m_fInitialFuelTankState 1
+      m_eFuelNodeType 0
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    CanBeGarbaged 0
+    StoragePurpose 0
+   }
+  }
+  coords 1483.775 38.187 2275.71
+  angleY 159.804
+  {
+   ParticleEffectEntity {
+    coords 2.384 -1.216 0.728
+    EffectPath "{7B4A41DA320475FF}Particles/Editor/Photo/Smoke.ptc"
+   }
+  }
+ }
+ Ural4320_repair_FIA3 {
+  components {
+   BaseLightManagerComponent "{51E210F17D2534F7}" {
+    LightsEnabled 1
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 1
+      m_iFuelLeakSpeed 28
+      m_eFuelNodeType 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      m_fInitialFuelTankState 1
+      m_eFuelNodeType 0
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    CanBeGarbaged 0
+    StoragePurpose 0
+   }
+  }
+  coords 2105.882 55.405 2871.008
+  angleY -179.138
+  {
+   ParticleEffectEntity {
+    coords 2.384 -1.216 0.728
+    EffectPath "{7B4A41DA320475FF}Particles/Editor/Photo/Smoke.ptc"
+   }
+  }
+ }
+}
